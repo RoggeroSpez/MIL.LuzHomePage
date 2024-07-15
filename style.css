@@ -1,16 +1,12 @@
 body{
     background-image: "https://wallpapers.com/images/hd/orchids-background-ublaqquy2ott8dxy.jpg";
-    font-family: "Arbutus Slab", serif;
-    font-weight: 400;
-    font-style: normal;
     padding: 10px;
-    border-radius: 10%;
 }
 .table{
     border-style: groove;
     border-color: black;
     border-radius: 5%;
-    display: grid, center;
+    display: grid;
     grid-gap: 20px;
 }
 .card{
