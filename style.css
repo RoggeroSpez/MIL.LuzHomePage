@@ -1,15 +1,14 @@
-body{
-    background-image: "https://wallpapers.com/images/hd/orchids-background-ublaqquy2ott8dxy.jpg";
-    padding: 10px;
-}
 .table{
     border-style: groove;
     border-color: black;
     border-radius: 5%;
     display: grid;
     grid-gap: 20px;
+    flex-direction: center;
+    align-items: center;
 }
 .card{
+    background-color: green;
     border-style: groove;
     border-color: black;
     border-radius: 5%;
@@ -17,17 +16,24 @@ body{
     grid-gap: 20px;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
 }
-
-.card-img-top{
-    height: 45px;
-    width: 45px;
+.card-body{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
 }
-#footer{
+.card-img-top{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    padding: auto;
+    margin: auto;
+    height: 90px;
+    width: 90px;
+}
+
+footer{
     background-color: grey;
     border-radius: 3%;
-}
-
-#logo{
-    height: 45px;
-    width: 45px;
 }
