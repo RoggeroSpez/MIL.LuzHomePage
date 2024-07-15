@@ -1,3 +1,10 @@
+.section{
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    margin: auto;
+    padding: auto;
+}
 .table{
     border-style: groove;
     border-color: black;
