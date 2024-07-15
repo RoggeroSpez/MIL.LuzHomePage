@@ -30,3 +30,8 @@ body{
     background-color: grey;
     border-radius: 3%;
 }
+
+#logo{
+    height: 45px;
+    width: 45px;
+}
